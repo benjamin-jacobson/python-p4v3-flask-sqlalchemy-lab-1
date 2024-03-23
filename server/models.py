@@ -16,4 +16,4 @@ class Earthquake(db.Model, SerializerMixin):
     year = db.Column(db.Integer)
 
     def __repr__(self):
-        return f'<Earthquack {self.id}, {self.magnitude}, {self.location}, {self.year}>'
+        return f'<Earthquake {self.id}, {self.magnitude}, {self.location}, {self.year}>'
